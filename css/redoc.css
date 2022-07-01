@@ -1,0 +1,36 @@
+.ok,
+.nok {
+    padding: 5px;
+}
+
+.ok {
+    background: #d7ffe7;
+}
+
+#userNow {
+    font-weight: bold;
+}
+
+#userList {
+    max-width: 600px;
+}
+
+.urow {
+    display: flex;
+    padding: 15px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.uname {
+    width: 100%;
+}
+.send {
+    width: 120px;
+    padding: 5px;
+    margin-left: 3px;
+    background: #3069d2;
+    color: #fff;
+    border: 0;
+}

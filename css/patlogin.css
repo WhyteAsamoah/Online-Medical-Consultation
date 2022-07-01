@@ -1,0 +1,9 @@
+.contain {
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-top: 16px;
+}
+
+span.psw {
+    float: right;
+}

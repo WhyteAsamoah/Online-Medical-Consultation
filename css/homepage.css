@@ -1,0 +1,169 @@
+body {
+    font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body p {
+    font-size: 0.8em;
+    line-height: 1.28;
+}
+
+#wrapper {
+    width: 1080px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 14px;
+    border: 3px solid #dedede;
+}
+
+#banner {
+    background-image: url('../images/Admin2.jpg');
+    background-size: cover;
+    border: 1px solid #dedede;
+    height: 150px;
+}
+
+#navigation {
+    height: 60px;
+    border: 2px solid #e3e3e3;
+    margin-top: 20px;
+}
+
+#nav {
+    list-style: none;
+    z-index: 1030;
+}
+
+#nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 2px;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+#nav ul li:hover ul li {
+    display: block;
+}
+
+#nav a:link,
+nav a:active,
+nav a:visited {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: rgb(119, 91, 245);
+}
+
+.imgLeft {
+    float: left;
+    width: 240px;
+    height: 150px;
+    margin: 0px 10px 10px 0;
+    padding: 10px;
+}
+
+.imgRight {
+    float: right;
+    width: 200px;
+    height: 150px;
+    margin: 0px 0 10px 10px;
+    padding: 10px;
+}
+
+#content_area {
+    float: left;
+    width: auto;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+}
+
+.move_right {
+    float: right;
+    margin: 0px, 0px, 0px, 0px;
+}
+
+.top {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.center {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+}
+
+#footer {
+    width: 98%;
+    height: 50px;
+    padding: 10px;
+    border: 3px solid #e3e3e3;
+    color: #fff;
+    text-shadow: 0.1em 0.1em #333;
+    background-color: #175a7c;
+    display: inline-block;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#foot {
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    padding: 10px 13px;
+    margin: 11px;
+}
+
+#foot:hover {
+    text-decoration-line: underline;
+}
+
+
+/* Add a blue text color to link */
+
+.terms {
+    color: dodgerblue;
+}
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.error {
+    color: #FF0000;
+}

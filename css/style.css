@@ -1,0 +1,55 @@
+.navbar-inverse {
+    background: #00796B;
+    border-bottom-color: #004D40;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-nav>li>.dropdown-menu {
+    background: #4DB6AC;
+}
+
+.nav-pills>li>a {
+    color: #303F9F;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: #EEEEEE;
+}
+
+.bk-primary {
+    background: #82b7ec;
+}
+
+.bk-success {
+    background: #99a845;
+}
+
+.bk-warning {
+    background: #cf3cf4;
+}
+
+.bk-danger {
+    background: #cc345a;
+}
+
+.search {
+    padding-top: 14px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+#textfield {
+    font-size: 14px;
+    border-style: inset;
+    width: 200px;
+    padding-right: 0px;
+}
